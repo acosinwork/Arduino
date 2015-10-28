@@ -92,6 +92,11 @@
 
 #define STRELA
 
+#define WIRE_IO_CONFIG_MODE      0x03
+#define WIRE_IO_CONFIGURATION    0x0F
+#define WIRE_OUTPUT_WRITE_MODE   0x01
+#define WIRE_INPUT_READ_MODE     0x00
+
 #define NUM_DIGITAL_PINS  34 //30
 #define NUM_ANALOG_INPUTS 12
 
